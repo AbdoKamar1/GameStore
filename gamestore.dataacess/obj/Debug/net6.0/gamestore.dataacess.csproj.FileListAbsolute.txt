@@ -1,0 +1,17 @@
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\gamestore.dataacess.csproj.AssemblyReference.cache
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\gamestore.dataacess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\gamestore.dataacess.AssemblyInfoInputs.cache
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\gamestore.dataacess.AssemblyInfo.cs
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\gamestore.dataacess.csproj.CoreCompileInputs.cache
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\bin\Debug\net6.0\gamestore.dataacess.deps.json
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\bin\Debug\net6.0\gamestore.dataacess.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\bin\Debug\net6.0\gamestore.dataacess.pdb
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\bin\Debug\net6.0\gamestore.models.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\bin\Debug\net6.0\gamestore.models.pdb
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\gamestore.dataacess.csproj.CopyComplete
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\gamestore.dataacess.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\refint\gamestore.dataacess.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\gamestore.dataacess.pdb
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\ref\gamestore.dataacess.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\bin\Debug\net6.0\gamestore.DataAcess.runtimeconfig.json
+C:\Users\FUTURE\source\repos\gamestore\gamestore.dataacess\obj\Debug\net6.0\gamestore.DataAcess.genruntimeconfig.cache

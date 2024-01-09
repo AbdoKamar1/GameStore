@@ -1,0 +1,173 @@
+﻿@model gamestore.models.ViewModel.OrderVM
+@using gamestore.utilty
+<form method="post">
+    <div class="border p-4 ml-1 backgroundWhite mt-4">
+        <div class="row pb-1">
+            <div class="col-12 col-md-6 ">
+                <p class="h2  text-primary">Order Details</p>
+            </div>
+            <div class="col-12 col-md-4 offset-md-2">
+                <a class="btn btn-outline-primary form-control">Back to Orders </a>
+            </div>
+        </div>
+        <hr />
+
+        <div class="row pt-2">
+
+            <div class="col-lg-8 col-12" style="border-right:1px solid #bbb9b9">
+
+                <div class="form-group row py-1">
+                    <div class="col-md-3 col-12 text-primary">
+                        Name
+                    </div>
+                    <div class="col-md-9 col-12">
+                        @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
+                        {
+                            <input asp-for="orderHeader.Name" disabled class="form-control" />
+                            <span asp-validation-for="orderHeader.Name" class="text-danger"></span>
+                        }
+                        else
+                        {
+                            <input asp-for="orderHeader.Name" disabled class="form-control" />
+                        }
+                    </div>
+                </div>
+                <div class="form-group row py-1">
+                    <div class="col-md-3 col-12 text-primary">
+                        Email
+                    </div>
+                    <div class="col-md-9 col-12">
+                        <input asp-for="orderHeader.ApplicationUser.Email" readonly disabled class="form-control" />
+
+
+                        <input disabled class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group row py-1">
+                    <div class="col-md-3 col-12 text-primary">
+                        Phone Number
+                    </div>
+                    <div class="col-md-9 col-12">
+                        @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
+                        {
+                            <input asp-for="orderHeader.PhoneNumber" disabled class="form-control" />
+                            <span asp-validation-for="orderHeader.PhoneNumber" class="text-danger"></span>
+                        }
+                        else
+                        {
+                            <input asp-for="orderHeader.PhoneNumber" disabled class="form-control" />
+                        }
+
+                        <input disabled class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group row py-1">
+                    <div class="col-md-3 col-12 text-primary">
+                        Order Total
+                    </div>
+                    <div class="col-md-9 col-12">
+                        @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
+                        {
+                            <input asp-for="orderHeader.OrderTotal" disabled class="form-control" />
+                            <span asp-validation-for="orderHeader.OrderTotal" class="text-danger"></span>
+                        }
+                        else
+                        {
+                            <input asp-for="orderHeader.OrderTotal" disabled class="form-control" />
+                        }
+
+                        <input disabled class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group row py-1">
+                    <div class="col-md-3 col-12 text-primary">
+                        Order Date Time
+                    </div>
+                    <div class="col-md-9 col-12">
+                        <input value="@Model.orderHeader.OrderDate.ToShortDateString()" readonly disabled class="form-control" />
+
+
+                        <input disabled class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group row py-1">
+                    <div class="col-md-3 col-12 text-primary">
+                        Comments
+                    </div>
+                    <div class="col-md-9 col-12">
+                        <textarea disabled class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-12">
+                <h4 class="d-flex justify-content-between align-content-center mb-3">
+                    <span class="text-muted">Order ID: </span>
+                    <span class="badge badge-secondary badge-pill">XXX</span>
+                </h4>
+                <ul class="list-group mb-3">
+
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6 class="my-0">XXNAMEXX</h6>
+                            <small class="text-muted">Quantity : XXCountXX</small>
+                        </div>
+                        <span class="text-muted">$$$</span>
+                    </li>
+
+
+                    <li class="list-group-item d-flex justify-content-between bg-light">
+                        <span class="text-info"> Total (USD)</span>
+                        <strong class="text-info">@Model.orderHeader.OrderTotal.ToString("c")</strong>
+                    </li>
+
+                </ul>
+
+                <button type="submit" disabled class="btn btn-info form-control">ORDER STATUS</button>
+
+
+                <div class="row pt-3">
+                    <div class="col-6">
+                        @if (Model.orderHeader.PaymrntStatus == SD.PaymentStatusDelayedPayment && Model.orderHeader.OrderStatus == SD.StatusShipped)
+                        {
+                        <input type="submit" class="btn btn-primary form-control my-1" value="Pay Now" />
+                        }
+
+                        @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
+                        {
+
+                            if (Model.orderHeader.OrderStatus == SD.StatusApproved)
+                            {
+                                <input type="submit" class="btn btn-primary form-control my-1" value="Start Processing" />
+                            }
+                            if (Model.orderHeader.OrderStatus == SD.StatusInProcess)
+                            {
+                                <input type="submit" class="btn btn-primary form-control my-1" value="Ship Order" />
+                            }
+                            if (Model.orderHeader.PaymrntStatus == SD.PaymentStatusDelayedPayment && Model.orderHeader.OrderStatus == SD.StatusShipped)
+                            {
+                                <input type="submit" class="btn btn-primary form-control my-1" value="Pay Now" />
+                            }
+                            if (Model.orderHeader.OrderStatus != SD.StatusRefunded || Model.orderHeader.OrderStatus != SD.StatusCanceled)
+                            {
+                                <input type="submit" class="btn btn-primary form-control my-1" value="Cancel Order" />
+                            }
+                        }
+
+                        @*                        <button type="submit" class="btn btn-warning form-control"><i class="bi bi-x-square"></i> Cancel Order</button>
+                        *@
+                    </div>
+                    <div class="col-6">
+                        @*                        <button type="submit" class="btn btn-danger form-control"><i class="bi bi-currency-dollar"></i> Refund Order</button>
+                        *@
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</form>

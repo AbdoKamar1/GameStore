@@ -1,0 +1,118 @@
+﻿@using Microsoft.AspNetCore.Http
+@using gamestore.utilty
+@inject IHttpContextAccessor HttpContextAccesor
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - gamestoreweb</title>
+    <link rel="stylesheet" href="~/css/BoootswatchTheme.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/gamestoreweb.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Game Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
+                            <span class="visually-hidden">(current)</span>
+                        </li>
+                        @if (User.IsInRole(SD.Role_Admin))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="Identity" asp-page="/Account/Register">Crate User</a>
+                            </li>
+                        }
+
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="Admin" asp-controller="Order" asp-action="Index">
+                                    Mange Order
+                                </a>
+                            </li>
+                            @if(HttpContextAccesor.HttpContext.Session.GetInt32(SD.SessionCart) !=null)
+                            {
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                <i class="bi bi-cart"></i> &nbsp;
+                                (@HttpContextAccesor.HttpContext.Session.GetInt32(SD.SessionCart))
+                            </a>
+                            </li>
+                        }else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                    <i class="bi bi-cart"></i> &nbsp; (0)
+                                </a>
+                            </li>
+
+                        }
+
+                        @*                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                        </li>*@
+
+                    </ul>
+                    <partial name="_loginPartial" />"
+                    @*                    <form class="d-flex">
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    *@
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <partial name="_Notifctaion" />
+
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class=" footer text-muted bg-light">
+        <div class="container">
+            &copy; 2023 - gamestoreweb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://cdn.tiny.cloud/1/hzsc8p1kftnpcef5lhidd8bg3m690dsifgs9cducipwn1x0z/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

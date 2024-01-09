@@ -1,0 +1,14 @@
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\bin\Debug\net6.0\gamestore.utilty.deps.json
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\bin\Debug\net6.0\gamestore.utilty.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\bin\Debug\net6.0\gamestore.utilty.pdb
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\gamestore.utilty.csproj.AssemblyReference.cache
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\gamestore.utilty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\gamestore.utilty.AssemblyInfoInputs.cache
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\gamestore.utilty.AssemblyInfo.cs
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\gamestore.utilty.csproj.CoreCompileInputs.cache
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\gamestore.utilty.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\refint\gamestore.utilty.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\gamestore.utilty.pdb
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\ref\gamestore.utilty.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\bin\Debug\net6.0\gamestore.utilty.runtimeconfig.json
+C:\Users\FUTURE\source\repos\gamestore\gamestore.utilty\obj\Debug\net6.0\gamestore.utilty.genruntimeconfig.cache

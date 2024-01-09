@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\gamestoreweb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\gamestoreweb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\css\\BoootswatchTheme.css",
+      "PackagePath": "staticwebassets\\css\\BoootswatchTheme.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\images\\Products\\0735781f-3476-43dc-b4a1-321a435d4c6d.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\0735781f-3476-43dc-b4a1-321a435d4c6d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\images\\Products\\be5c5344-cee3-4f96-8964-6b9a03e1ed1b.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\be5c5344-cee3-4f96-8964-6b9a03e1ed1b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\images\\Products\\bf7dbe26-f071-4838-b5cf-6adedf449359.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\bf7dbe26-f071-4838-b5cf-6adedf449359.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\images\\dark.jpg",
+      "PackagePath": "staticwebassets\\images\\dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\js\\Order.js",
+      "PackagePath": "staticwebassets\\js\\Order.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FUTURE\\source\\repos\\gamestore\\gamestoreweb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.gamestoreweb.props",
+      "PackagePath": "build\\gamestoreweb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.gamestoreweb.props",
+      "PackagePath": "buildMultiTargeting\\gamestoreweb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.gamestoreweb.props",
+      "PackagePath": "buildTransitive\\gamestoreweb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.gamestoreweb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

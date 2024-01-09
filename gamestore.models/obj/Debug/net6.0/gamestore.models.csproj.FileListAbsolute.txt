@@ -1,0 +1,14 @@
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\gamestore.models.csproj.AssemblyReference.cache
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\gamestore.models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\gamestore.models.AssemblyInfoInputs.cache
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\gamestore.models.AssemblyInfo.cs
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\gamestore.models.csproj.CoreCompileInputs.cache
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\bin\Debug\net6.0\gamestore.models.deps.json
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\bin\Debug\net6.0\gamestore.models.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\bin\Debug\net6.0\gamestore.models.pdb
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\gamestore.models.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\refint\gamestore.models.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\gamestore.models.pdb
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\ref\gamestore.models.dll
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\bin\Debug\net6.0\gamestore.models.runtimeconfig.json
+C:\Users\FUTURE\source\repos\gamestore\gamestore.models\obj\Debug\net6.0\gamestore.models.genruntimeconfig.cache
